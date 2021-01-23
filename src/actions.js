@@ -11,6 +11,7 @@ export const SET_SELECTED = 'SET_SELECTED';
 // Search Action Types
 export const SET_SEARCH = 'SET_SEARCH';
 
+// Action Creator Functions
 export function addDocument(title, content) {
     return {
         type: ADD_DOCUMENT,
